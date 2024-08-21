@@ -1,0 +1,76 @@
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+    color: #ddd;
+}
+
+.search-bar {
+    position: relative;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-bar button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    background-color: #444;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.search-bar button:hover {
+    background-color: #555;
+}
+.fontkita {
+    font-family: 'Times New Roman', serif;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    
+}
+</style>
